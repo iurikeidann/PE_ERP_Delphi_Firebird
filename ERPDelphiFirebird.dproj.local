@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/08/29 13:31:17.624,=C:\Users\Iuri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/29 13:34:38.508,D:\GitHub\PE_\PE_ERP_Delphi_Firebird\src\views\View.principal.dfm=C:\Users\Iuri\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/08/29 13:34:38.508,D:\GitHub\PE_\PE_ERP_Delphi_Firebird\src\views\View.principal.pas=C:\Users\Iuri\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/29 13:35:57.498,D:\GitHub\PE_\PE_ERP_Delphi_Firebird\ERPDelphiFirebird.dproj=C:\Users\Iuri\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
