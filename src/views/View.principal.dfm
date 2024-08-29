@@ -1,11 +1,13 @@
 object ViewPrincipal: TViewPrincipal
   Left = 0
   Top = 0
+  ParentCustomHint = False
+  BiDiMode = bdLeftToRight
   BorderStyle = bsNone
   Caption = 'View Principal'
   ClientHeight = 671
   ClientWidth = 940
-  Color = clBtnFace
+  Color = clWindow
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -12
@@ -2126,32 +2128,93 @@ object ViewPrincipal: TViewPrincipal
     FFFFFFFFE4000027FFFFFFFFFFFFFFFFFFFFFFFFEA000057FFFFFFFFFFFFFFFF
     FFFFFFFFF4BFFD2FFFFFFFFFFFFFFFFFFFFFFFFFFA00005FFFFFFFFFFFFFFFFF
     FFFFFFFFFF0001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+  ParentBiDiMode = False
   TextHeight = 15
+  object PanelMenu: TPanel
+    Left = 0
+    Top = 73
+    Width = 210
+    Height = 598
+    Align = alLeft
+    BevelOuter = bvNone
+    Color = 5395026
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clDefault
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 1
+  end
   object PanelTop: TPanel
     Left = 0
     Top = 0
     Width = 940
-    Height = 41
+    Height = 73
     Align = alTop
     BevelOuter = bvNone
-    Color = clLime
+    Color = 5395026
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 376
-    ExplicitTop = 328
-    ExplicitWidth = 185
     object Fechar: TButton
       Left = 865
       Top = 0
       Width = 75
-      Height = 41
+      Height = 73
       Align = alRight
       Caption = 'Fechar'
       TabOrder = 0
       OnClick = FecharClick
-      ExplicitLeft = 416
-      ExplicitTop = 8
-      ExplicitHeight = 25
+    end
+    object Logo: TPanel
+      Left = 0
+      Top = 0
+      Width = 210
+      Height = 73
+      Align = alLeft
+      BevelOuter = bvNone
+      Color = 3223857
+      ParentBackground = False
+      TabOrder = 1
+    end
+  end
+  object Background: TPanel
+    Left = 210
+    Top = 73
+    Width = 730
+    Height = 598
+    Align = alClient
+    TabOrder = 2
+    ExplicitLeft = 376
+    ExplicitTop = 312
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Footer: TPanel
+      Left = 1
+      Top = 556
+      Width = 728
+      Height = 41
+      Align = alBottom
+      BevelOuter = bvNone
+      Color = 5395026
+      ParentBackground = False
+      TabOrder = 0
+      ExplicitLeft = 6
+      ExplicitWidth = 705
+    end
+    object Conteudo: TPanel
+      Left = 1
+      Top = 1
+      Width = 728
+      Height = 555
+      Align = alClient
+      BevelOuter = bvNone
+      TabOrder = 1
+      ExplicitLeft = 264
+      ExplicitTop = 280
+      ExplicitWidth = 185
+      ExplicitHeight = 41
     end
   end
 end

@@ -17,6 +17,11 @@ type
   TViewPrincipal = class(TForm)
     PanelTop: TPanel;
     Fechar: TButton;
+    PanelMenu: TPanel;
+    Background: TPanel;
+    Footer: TPanel;
+    Conteudo: TPanel;
+    Logo: TPanel;
     procedure FecharClick(Sender: TObject);
   private
     { Private declarations }
