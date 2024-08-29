@@ -11,13 +11,10 @@ uses
   Vcl.Graphics,
   Vcl.Controls,
   Vcl.Forms,
-  Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+  Vcl.Dialogs;
 
 type
   TViewPrincipal = class(TForm)
-    PanelTop: TPanel;
-    Fechar: TButton;
-    procedure FecharClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -30,10 +27,5 @@ var
 implementation
 
 {$R *.dfm}
-
-procedure TViewPrincipal.FecharClick(Sender: TObject);
-begin
-  Application.Terminate;
-end;
 
 end.

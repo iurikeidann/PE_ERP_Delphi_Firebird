@@ -2134,8 +2134,6 @@ object ViewPrincipal: TViewPrincipal
     Height = 41
     Align = alTop
     BevelOuter = bvNone
-    Color = clLime
-    ParentBackground = False
     TabOrder = 0
     ExplicitLeft = 376
     ExplicitTop = 328
