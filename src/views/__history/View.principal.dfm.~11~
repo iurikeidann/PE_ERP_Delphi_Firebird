@@ -2146,8 +2146,6 @@ object ViewPrincipal: TViewPrincipal
     ParentBackground = False
     ParentFont = False
     TabOrder = 1
-    ExplicitLeft = -5
-    ExplicitTop = 79
   end
   object PanelTop: TPanel
     Left = 0
@@ -2174,108 +2172,11 @@ object ViewPrincipal: TViewPrincipal
       Top = 0
       Width = 210
       Height = 73
-      Margins.Left = 6
       Align = alLeft
       BevelOuter = bvNone
       Color = 3223857
       ParentBackground = False
       TabOrder = 1
-      object Label1: TLabel
-        AlignWithMargins = True
-        Left = 0
-        Top = 9
-        Width = 137
-        Height = 53
-        Caption = 'IuriTech'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = cl3DLight
-        Font.Height = -27
-        Font.Name = 'Roboto'
-        Font.Style = []
-        ParentFont = False
-      end
-      object Label2: TLabel
-        AlignWithMargins = True
-        Left = 3
-        Top = 51
-        Width = 204
-        Height = 19
-        Align = alBottom
-        Caption = 'ERP Delphi + Firebird'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clInactiveBorder
-        Font.Height = -16
-        Font.Name = 'Roboto'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 0
-        ExplicitTop = 59
-        ExplicitWidth = 150
-      end
-      object Panel1: TPanel
-        Left = 0
-        Top = 0
-        Width = 210
-        Height = 3
-        Align = alTop
-        BevelOuter = bvNone
-        Color = clHighlight
-        ParentBackground = False
-        TabOrder = 0
-      end
-    end
-    object Panel2: TPanel
-      Left = 210
-      Top = 0
-      Width = 127
-      Height = 73
-      BevelOuter = bvNone
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clInactiveCaption
-      Font.Height = -16
-      Font.Name = 'Roboto'
-      Font.Style = []
-      ParentFont = False
-      TabOrder = 2
-      object Label3: TLabel
-        AlignWithMargins = True
-        Left = 3
-        Top = 32
-        Width = 121
-        Height = 38
-        Align = alClient
-        Alignment = taCenter
-        Caption = '1.0.0'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = cl3DLight
-        Font.Height = -16
-        Font.Name = 'Roboto'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 4
-        ExplicitTop = 29
-        ExplicitWidth = 35
-        ExplicitHeight = 19
-      end
-      object Label4: TLabel
-        AlignWithMargins = True
-        Left = 3
-        Top = 3
-        Width = 121
-        Height = 23
-        Align = alTop
-        Alignment = taCenter
-        Caption = '[ Vers'#227'o ]'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = cl3DLight
-        Font.Height = -19
-        Font.Name = 'Roboto'
-        Font.Style = []
-        ParentFont = False
-        ExplicitLeft = 4
-        ExplicitTop = 4
-        ExplicitWidth = 80
-      end
     end
   end
   object Background: TPanel
@@ -2285,6 +2186,10 @@ object ViewPrincipal: TViewPrincipal
     Height = 598
     Align = alClient
     TabOrder = 2
+    ExplicitLeft = 376
+    ExplicitTop = 312
+    ExplicitWidth = 185
+    ExplicitHeight = 41
     object Footer: TPanel
       Left = 1
       Top = 556
@@ -2295,6 +2200,8 @@ object ViewPrincipal: TViewPrincipal
       Color = 5395026
       ParentBackground = False
       TabOrder = 0
+      ExplicitLeft = 6
+      ExplicitWidth = 705
     end
     object Conteudo: TPanel
       Left = 1
@@ -2304,8 +2211,10 @@ object ViewPrincipal: TViewPrincipal
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 1
-      ExplicitLeft = 473
-      ExplicitTop = 169
+      ExplicitLeft = 264
+      ExplicitTop = 280
+      ExplicitWidth = 185
+      ExplicitHeight = 41
     end
   end
 end

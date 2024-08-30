@@ -22,12 +22,6 @@ type
     Footer: TPanel;
     Conteudo: TPanel;
     Logo: TPanel;
-    Panel1: TPanel;
-    Label1: TLabel;
-    Label2: TLabel;
-    Panel2: TPanel;
-    Label3: TLabel;
-    Label4: TLabel;
     procedure FecharClick(Sender: TObject);
   private
     { Private declarations }
